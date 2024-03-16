@@ -1,4 +1,4 @@
-# Terraforming AWS: learning
+# Terraforming AWS: learning material and demos
 Start from following the main tutorial: https://developer.hashicorp.com/terraform/tutorials/aws-get-started and other resources to learn terraform and play with some simple architectures in AWS.
 
 ## TODO: learning terraform basics
