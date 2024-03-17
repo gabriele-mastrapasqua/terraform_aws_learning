@@ -6,6 +6,16 @@ Open each subfolders then run `terraform init` to fetch modules dependencies, th
 
 You can incur in some charges for resources usage on AWS (most are in the free tier if you have a new aws account like for ec2 micro), so always remember to `terraform destroy` to remove the resources on AWS after you see the results expected and for cleanup.
 
+## Common workflow for each exercise
+- `terraform init`: fetch dependencies
+- `terraform fmt`: format your template files
+- `terraform validate`: validate the files
+- `terraform plan`: check the planning on AWS that terraform will apply
+- `terraform apply`: run deployment on AWS
+- `terraform show`: show terraform current state
+- `terraform destroy`: run deployment on AWS
+
+
 ## Table of Contents
 - [Exercise 0: setup terraform](./0_setup/README.md)
 - [Exercise 1: docker test on local machine](./1_docker_local/README.md)
