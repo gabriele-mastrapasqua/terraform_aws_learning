@@ -22,6 +22,14 @@ You can incur in some charges for resources usage on AWS (most are in the free t
 - [Exercise 2: terraform basics](./2_aws_instance/README.md): following the main tutorial we will try to deploy an ec2 instance, try basics commands and workflow using terraform, try terraform cloud
 - [Exercise 3: terraform variables](./3_variables/README.md): terraform different types of variables 
 
+- TODO
+
+- [Architecture examples](./aws_architecture_examples/README.md): Different architectures on AWS using terraform, common patterns.
+
+
+
+
+
 
 
 
@@ -37,7 +45,7 @@ You can incur in some charges for resources usage on AWS (most are in the free t
 Here are some ideas to try on AWS with terraform: 
 - [X] EC2 basics: create an ec2 instance, simple settings
 - [ ] EC2: autoscaling, spot, other specific settings?
-- [ ] s3 bucket
+- [X] s3 bucket
 - [ ] s3 bucket for website hosting and CORS
 - [ ] API Gateway > lambda (and optionally cognito for user auth?)
 - [ ] lambda layers?
