@@ -1,6 +1,11 @@
 # Terraform setup
 
-## CLI Install 
+## prerequisites
+- install aws cli
+- setup an access token or other authentication methods on your AWS account
+
+
+## terraform CLI Install 
 - Follow the installation here: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli, for ex using brew
 
 - install zsh / bash autocomplete: `terraform -install-autocomplete`
