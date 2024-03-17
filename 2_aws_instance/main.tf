@@ -1,12 +1,13 @@
 terraform {
 
   # terraform cloud settings
+  /*
   cloud {
     organization = "mytestorganization123"
     workspaces {
       name = "workspace-learning"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
