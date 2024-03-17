@@ -17,10 +17,10 @@ You can incur in some charges for resources usage on AWS (most are in the free t
 
 
 ## Table of Contents
-- [Exercise 0: setup terraform](./0_setup/README.md)
-- [Exercise 1: docker test on local machine](./1_docker_local/README.md)
-- [Exercise 2: ec2 basics on AWS](./2_aws_instance/README.md)
-- [Exercise 3: terraform variables](./3_variables/README.md)
+- [Exercise 0: setup terraform](./0_setup/README.md): install the terraform CLI and check prerequisites
+- [Exercise 1: docker test on local machine](./1_docker_local/README.md): test terraform running a docker container locally
+- [Exercise 2: terraform basics](./2_aws_instance/README.md): following the main tutorial we will try to deploy an ec2 instance, try basics commands and workflow using terraform, try terraform cloud
+- [Exercise 3: terraform variables](./3_variables/README.md): terraform different types of variables 
 
 
 

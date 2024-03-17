@@ -1,7 +1,7 @@
-# AWS EC2 with terraform
+# Terraform basics using AWS
 Taken from the main tutorial: https://developer.hashicorp.com/terraform/tutorials/aws-get-started from step 2 onward.
 
-The example explain how to create and update an EC2. 
+The example explain how to create and update an EC2 with basic properties. 
 
 We start using local state (the cli generate ".tfstate" files locally) that **must NOT be checked in git**, and ignored from a VCS because they can contains secrets and sensitive data from our cloud account.
 
