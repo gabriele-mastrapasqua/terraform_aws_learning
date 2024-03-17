@@ -22,9 +22,3 @@ Here are some ideas to try on AWS with terraform:
 - [ ] ECS: ec2, config, ECR for private docker repo
 - [ ] CodeBuild, CodePipeline, ...
 
-
-## CLI Install 
-- Follow the installation here: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli, for ex using brew
-- install zsh / bash autocomplete: `terraform -install-autocomplete`
-
-
