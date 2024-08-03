@@ -4,7 +4,7 @@ Start from following the main tutorial: https://developer.hashicorp.com/terrafor
 ## How to
 Open each subfolders then run `terraform init` to fetch modules dependencies, then `terraform plan` to see the planning configuration, or to deploy use `terraform apply` to create resources on AWS. 
 
-You can incur in some charges for resources usage on AWS (most are in the free tier if you have a new aws account like for ec2 micro), so always remember to `terraform destroy` to remove the resources on AWS after you see the results expected and for cleanup.
+You can incur in some charges for resources usage on AWS (most resources used in the samples are in the free tier if you have a new aws account like for ec2 micro), so always remember to `terraform destroy` to remove the resources on AWS after you see the expected results of your tests.
 
 ## Common workflow for each exercise
 - `terraform init`: fetch dependencies
